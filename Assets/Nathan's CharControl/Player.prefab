@@ -114,15 +114,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 307787295223064180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00786b73121b88c46b85c191b36301dd, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bcc0c232af0a422b9a69bf6e921dec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MOVE_SPEED: 6
-  JUMP_FORCE: 5
-  GRAVITY: -9.81
-  MAX_FALL_SPEED: -10
-  USE_BRAKES: 1
-  BRAKE_MULTIPLIER: 2
 --- !u!114 &307787295223063951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,9 +126,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 307787295223064180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5641d429b91327d4789f1931f0b4448b, type: 3}
+  m_Script: {fileID: 11500000, guid: e78228c9c2a254ac88dc49d25921a5d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MOVE_SPEED: 3
+  JUMP_FORCE: 1
+  GRAVITY: -9.81
+  MAX_FALL_SPEED: -10
+  USE_BRAKES: 1
+  BRAKE_MULTIPLIER: 2
 --- !u!1 &307787296748110587
 GameObject:
   m_ObjectHideFlags: 0
